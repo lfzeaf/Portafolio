@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+element.style {
+}
+body{
+    background: #212529;
+}
+.contenedor{
+    background-color: rgb(18, 5, 92);
+    color: chartreuse;
+    margin: 32px;
+    border-style: none;
+}
+h1{
+    text-align: center;
+}
+.centrar{
+    margin: auto;
+       display: block;
+       height: 300px;
+       width: 300px;
+       background-repeat: no-repeat;
+       background-position: 50%;
+       border-radius: 50%;
+       background-size: 100% auto;
+}
+h2{
+    
+        color: chartreuse;
+        font-size: 36px;
+        text-align: center;
+        align-items: center;
+}
+h2{
+    text-align: center;
+    display: block;
+    font-size: 1.5em
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+article{
+    width: 200px;
+    margin: 5%;
+    padding: 5%;
+    margin: 50px;
+    border-style: solid;
+    text-align: cente
+}
+.foto-container{
+    width: 10%;
+    margin: auto;
+}
+.enlaces{
+    text-align:center;
+    font-size: 200%;
+    display: flex;
+    justify-content:  space-evenly;
+    padding: 4em; 
+}
+
+.caja{
+    border-radius: 50px;
+}
+
+
