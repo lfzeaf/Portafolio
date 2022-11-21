@@ -64,6 +64,16 @@ article{
 
 .caja{
     border-radius: 50px;
+    align-content: stretch;
+    justify-content: center;
+}
+header{
+    align-content: stretch;
+    justify-content: center;
+}
+section{
+    align-content: stretch;
+    justify-content: center;
 }
 
 

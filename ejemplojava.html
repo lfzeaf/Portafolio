@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+       <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       var global=100;
+       {
+        var local_uno=1;
+        alert("Global" +global +"Local" +local_uno);
+        dos();
+       }
+        function dos()
+       {
+       var local_dos=2;
+       alert("Global" +global+"Local"+local_dos);
+        }
+          
+    </script>
+    <script>
+        function ver(edad)
+        {
+            var Edad=parceint(cedad.value);
+            if(edad<=18)
+            alert("no tienes acceso\nDebes tener 18");
+            else
+            alert("bienvenido a la pagina");
+        }
+    </script>
+    <script>
+        function valor()
+        {
+            var nombre;
+            nombre=prompt("Introduce Nombre:","");
+            alert("hola"+nombre);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        Nombre;<input type="text"
+        name="cnombre" size="20">
+        <input type="text"
+        name="cnombre" size="20">
+        <input type="button" value="ver"
+        onclick=muestra(this.form.cnombre)
+        ;>
+    
+    
+    </form>
+    <br>
+    <form>
+        CONTRASEÑA;
+        <input type="pasword" name="secre" size="5"
+        onkeyup=pasa(secre,caja);>
+        <br>
+        NORMAL;
+        <input type="text"  name="caja " size="5">
+        </form>   
+        
+        Edad:
+        <input type="text" name="cedad size="3"
+        onblur=ver(cedad);>
+</body>
+</html>
